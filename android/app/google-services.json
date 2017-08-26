@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "73804823141",
+    "firebase_url": "https://sportunity-151910.firebaseio.com",
+    "project_id": "sportunity-151910",
+    "storage_bucket": "sportunity-151910.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73804823141:android:025d72f5580b77cd",
+        "android_client_info": {
+          "package_name": "com.sportunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73804823141-f6hkv5c4d3uka8ob929ps4kt2nhllhse.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "73804823141-dno14cel60d36jeebn1rbn52stmhrtqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEANDBokSglEfBAFYhgU0qNUd_GbiizjU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

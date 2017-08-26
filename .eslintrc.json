@@ -1,0 +1,46 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "plugins": [
+    "babel",
+    "react",
+    "react-native"
+  ],
+  "extends": [
+    "airbnb",
+    "eslint:recommended"
+  ],
+  "ecmaFeatures": {
+      "jsx": true,
+      "restParams": true,
+      "spread": true,
+      "experimentalObjectRestSpread": true
+  },
+  "rules": {
+    "global-require": 0,
+    "no-extra-parens": 0,
+    "comma-dangle": 0,
+    "react/prop-types": 2,
+    "react/sort-comp": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "jsx-boolean-value": 0,
+    "no-underscore-dangle": 0,
+    "require-jsdoc": ["error", {
+        "require": {
+            "FunctionDeclaration": true,
+            "MethodDefinition": true,
+            "ClassDeclaration": true
+        }
+    }],
+
+    "import/no-unresolved"              : 0,
+    "import/no-extraneous-dependencies" : 0,
+    "import/extensions"                 : 0,
+    "import/prefer-default-export"      : 0
+  }
+}
